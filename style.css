@@ -1,0 +1,111 @@
+.papier {
+    background-image: url("papier2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 100px 55px;
+    min-height: 600px;
+    margin-top: -70px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+    font-size: 60px;
+    color: #24211f;
+}
+
+h2
+{
+display: flex;
+justify-content: center;
+}
+
+.papier img {
+    width: 25%;
+    height: auto;
+    display: block;
+    padding-top: 170px;
+}
+
+.papier article {
+    width: 45%;
+    margin-top: 150px;
+}
+
+body {
+    background-color: #f5b5c8;
+    font-family: "Balsamiq Sans", sans-serif;
+    color: #292522;
+}
+
+header {
+    background-color: #f5b5c8;
+    padding: 30px 25px;
+}
+
+
+section section {
+    font-weight: bold;
+}
+
+nav {
+    background-color: #777b43;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+nav a {
+    background-color: #deded7;
+    color: #292522;
+    padding: 10px 18px;
+    border-radius: 20px;
+}
+
+footer {
+    opacity: 0.7;
+    text-align: right;
+    padding-right: 25px;
+}
+
+
+h3 {
+    font-family: "Indie Flower", cursive;
+    font-size: 26px;
+    color: #777b43;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+li {
+    margin-bottom: 20px;
+}
+
+li a {
+    color: #292522;
+    text-align: center;
+}
+
+ol {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.wiki-tekst {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    border-left: 20px
+}
+
+nav a.actief {
+    background-color: #777b43;
+    color: #deded7;
+    border: 2px solid #deded7;
+}
